@@ -4,9 +4,9 @@
   "description": "React Twitter Login Component.",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint src/*.js",
+    "lint": "./node_modules/.bin/eslint src/*.jsx",
     "prepush": "npm run lint",
-    "test": "./node_modules/.bin/jest tests/*.spec.js",
+    "test": "./node_modules/.bin/jest __tests__/*.spec.jsx",
     "test:tdd": "npm run test -- --watch",
     "test:coverage": "nyc npm test",
     "start": "./node_modules/.bin/webpack-dev-server --open"
@@ -59,13 +59,13 @@
     "jest-cli": "^22.4.2",
     "nyc": "^11.4.1",
     "prop-types": "^15.6.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
     "regenerator-runtime": "^0.11.1",
     "webpack": "^4.0.0",
     "webpack-dev-server": "^3.0.0"
   },
   "dependencies": {
-    "node-fetch": "^2.0.0"
+    "node-fetch": "^2.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }

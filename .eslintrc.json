@@ -2,7 +2,9 @@
   "extends": "airbnb",
   "plugins": [
     "react",
-    "jsx-ally",
     "import"
-  ]
+  ],
+  "env": {
+    "jest": true
+  }
 }

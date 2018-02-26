@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class ReactTwitterLogin extends Component {
-  render() {
-    return (
-      <div>
-        Teste de renderização
-      </div>
-    );
-  }
-}
+const reactTwitterLogin = () => (
+  <div>
+    Test
+  </div>
+);
 
-export default ReactTwitterLogin;
+export default reactTwitterLogin;
