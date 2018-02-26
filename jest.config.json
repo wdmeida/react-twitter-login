@@ -1,0 +1,9 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "jsx"
+  ],
+  "moduleNameMapper": {
+    "ReactTwitterLogin": "<rootDir>/src/index.jsx"
+  }
+}
