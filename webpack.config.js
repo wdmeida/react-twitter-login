@@ -14,8 +14,12 @@ export default {
     loaders: [
       {
         test: /\.(js|jsx)$/,
-        loader: 'babel-loader',
-        include,
+        loader: [
+          'babel-loader'
+        ],
+        exclude: [
+          /node_modules/
+        ],
       },
     ],
   },
